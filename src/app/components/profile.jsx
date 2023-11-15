@@ -26,7 +26,7 @@ function Profile() {
           
           <div className='flex gap-4 justify-around'>
             <div>
-              <p className='font-medium text-[3vw] text-gray-700 border px-2 py-1 rounded-lg text-center'>5555</p>
+              <p className='font-medium text-[3vw] text-gray-700 border px-2 py-1 rounded-lg text-center'>555</p>
               <p className='text-sm text-gray-500 text-center lg:text-[1.5vw]'>Followers</p>
             </div>
             
