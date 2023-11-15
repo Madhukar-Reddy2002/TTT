@@ -1,7 +1,7 @@
 Overview
 The app displays a profile section with a cover image, profile image, name, follower counts etc. Below that it shows multiple post components with sample post data.
 
-The main goals were:
+The main goals were :
 
 Implement smooth entrance animations for navbar and call to action button using GSAP
 Display profile and post data in a clean, visually appealing way
