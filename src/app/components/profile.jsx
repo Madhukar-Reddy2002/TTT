@@ -8,6 +8,8 @@ function Profile() {
     <div className=' flex flex-col'>
       <Image 
         src={cvr}
+        priority
+        alt="COVER PHOTO"
         className='w-full h-[35vw] lg:h-[25vw] object-cover object-center'
       />
 
@@ -15,6 +17,7 @@ function Profile() {
         <div className='flex'>
         <Image
           src={im}
+          alt="PROFILE IMAGE"
           className='h-[150px] w-[150px] lg:h-[250px] lg:w-[250px] rounded-full object-cover border relative -top-[50px]'
         />
         
@@ -46,7 +49,7 @@ function Profile() {
           <div className='py-2 min-w-[15vw] w-fit text-center text-[3vw]'>🌟 25k</div>
           <div className='py-2 min-w-[15vw] w-fit text-center text-[3vw]'>👍 12k</div>
           <div className='py-2 min-w-[15vw] w-fit text-center text-[3vw]'>👁️ 95k</div>
-          <div className='py-2 min-w-[15vw] w-fit text-center text-[3vw]'>❤️ 1250</div>
+          <div className='py-2 min-w-[15vw] w-fit text-center text-[3vw]'> <span className='animate-pulse'>❤️</span> 1250</div>
         </div>
       </div>
       </div>
