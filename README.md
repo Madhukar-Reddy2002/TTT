@@ -26,6 +26,8 @@ Like button pulses to attract attention
 Heart count animates up slowly for engagement
 Smooth entrance animations improve perceived performance and create a more polished feel. Attention-grabbing animations on the like button and heart count make those metrics more prominent.
 
+![image](https://github.com/Madhukar-Reddy2002/TTT/assets/104265607/42711ac0-b750-482a-8042-1e027c573d2a) 
+
 
 Responsive Design
 The app uses Tailwind CSS classes like text-[4vw] lg:text-[2vw]] to adjust font sizes responsively for mobile versus desktop views.
