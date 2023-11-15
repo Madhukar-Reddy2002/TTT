@@ -1,0 +1,11 @@
+{
+    "git.autorefresh": false,
+    "git.autoRepositoryDetection": false,
+    "github.branchProtection": false,
+    "github.gitAuthentication": false,
+    "html.autoClosingTags": true,
+    "git.useIntegratedAskPass": false,
+    "git.useForcePushWithLease": false,
+    "git.useForcePushIfIncludes": false,
+    "git.useEditorAsCommitInput": false
+}
