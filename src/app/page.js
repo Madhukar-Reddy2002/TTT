@@ -5,7 +5,7 @@ import Post from './components/post.jsx';
 
 const App = () => {
   return (
-    <main className=" w-full h-full bg-white border-black text-black">
+    <main className=" w-full h-full bg-white border-black text-black overflow-x-hidden">
       <Navbar />
       <Profile />
       <div className='p-3 rounded-sm w-fit text-[4vw] lg:text-[2vw] border-t-2 border-l-2 border-r-2'>{143} POSTS</div>
