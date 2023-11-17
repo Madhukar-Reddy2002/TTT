@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect, useRef } from 'react';
 import gsap, { random } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger'; // Ensure you have this imported
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-gsap.registerPlugin(ScrollTrigger); // Register the ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger); 
 
 function Post({ title, body, date, views, read, type }) {
   const postRef = useRef(null);
@@ -22,9 +22,8 @@ function Post({ title, body, date, views, read, type }) {
 
     const postTrigger = {
       trigger: postRef.current,
-      start: 'center bottom', // Adjust the start position for the trigger
-      end: 'bottom top', // Adjust the end position for the trigger
-      scrub: true, // Adjust scrubbing behavior as needed
+      start: 'center bottom',
+      end: 'bottom top',
       onToggle: self => {
         if (self.isActive) {
           postAnimation.play();
